@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('blackbackground.jpg');
+  /* Replace 'background.jpg' with the actual path to your image file */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+}
+
+.container {
+  text-align: center;
+}
+
+input {
+  /* Gives size of input text */
+  
+  padding: 8px;
+  margin-right: 8px;
+}
+
+button {
+  /* Space around box */
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+#userData {
+  margin-top: 20px;
+}
