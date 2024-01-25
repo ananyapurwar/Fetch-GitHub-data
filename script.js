@@ -31,8 +31,6 @@ function displayUserData(data) {
 function displayUserInfo(data) {
     const resultElement = document.getElementById('result');
 
-    // Create elements to display user information
-
     const username = document.createElement('h2');
     username.innerText = data.login;
 
@@ -45,7 +43,6 @@ function displayUserInfo(data) {
     const followingCount = document.createElement('p');
     followingCount.innerText = `Following: ${data.following}`;
 
-    // Append elements to the result container
     resultElement.appendChild(username);
     resultElement.appendChild(repoCount);
     resultElement.appendChild(followersCount);
