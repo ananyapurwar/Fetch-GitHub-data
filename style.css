@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   background-image: url('blackbackground.jpg');
-  /* Replace 'background.jpg' with the actual path to your image file */
+  
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -19,7 +19,6 @@ body {
 
 input {
   /* Gives size of input text */
-  
   padding: 8px;
   margin-right: 8px;
 }
